@@ -5,10 +5,7 @@ import sys
 import os
 import signal #signal
 import boards
-#import pigpio
-import time
 import datetime
-from idlelib.IOBinding import filesystemencoding
 
 def getFilename():
     numFilename = "/home/pi/logger/static/data/num.dat" 
